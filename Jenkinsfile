@@ -4,7 +4,7 @@ pipeline {
     environment {
         NODE_ENV = 'production'
         EC2_USER = 'ubuntu'
-        EC2_IP = '54.90.138.242'
+        EC2_IP = '54.209.205.96'
         REMOTE_PATH = '/home/ubuntu/node-health'
         SSH_KEY = credentials('ssh-key-ec2')
     }
